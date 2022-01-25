@@ -1,0 +1,390 @@
+<style>
+body {
+	background: black;
+	cursor: crosshair;
+        z-index: -988;
+}
+table {
+	background-color: none;
+}
+table a img {
+	margin-top: -20px;
+}
+.sf {
+	display: none;
+}
+table .scroll {
+        display: inline-block;
+}
+
+#container {
+	width: 1500px;
+	height: 750px;
+	overflow: hidden !important;
+	background: none;
+	margin: 0px 0px;
+	background: url("https://imgur.com/URhn26K.gif") top left no-repeat;
+	z-index: 222;
+}
+
+#content {
+	width: 840px;
+	height: 365px;
+	margin: 290px -250px;
+        overflow: hidden !important;
+	z-index: 223;
+	display: inline-block;
+}
+.scroll {
+        width: 96%;
+	height: 98%;
+        padding: 10px;
+	overflow: auto;
+	margin-top: 10px;
+	padding-right: 10px;
+	margin-bottom: 500px;
+        z-index: 777;
+        display: inline-block;
+}
+p, .medText, font, body, div, tr, td, table {
+	color: #4C4151;
+	font: 8pt century gothic;
+	line-height: 16px;
+	letter-spacing: 1.5px;
+	text-align: center;
+}
+a:link, a:visited {
+	color: #BE4853;
+	cursor: se-resize;
+}
+a:hover {
+	color: #E5353C;
+}
+b {
+	color: #000;
+}
+
+strong {
+	font: bold 7pt century gothic;
+	color: #fff;
+	text-transform: uppercase;
+	background: #aaa;
+	letter-spacing: 2px;
+	padding: 1 4;
+}
+h2 {
+        font: bold 10pt century gothic;
+	color: #fff;
+	text-transform: uppercase;
+	background: #BE4853;
+	letter-spacing: 2px;
+	padding: 3 5;
+        width: 40%;
+        margin-top: 8px;
+        text-align: left;
+}
+#navi {
+	margin: 375px 300px;
+	width: 175px;
+	height: 325px
+	z-index: 888;
+
+} 
+#navi a {
+	height: 65px;
+	width: 100%;
+	display: block;
+	font-size: 0px;
+	z-index: 889;
+}
+#circle {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: -15px;
+        float: right;
+        border: 0px dashed grey;
+        text-align: center;
+        overflow: hidden;
+}
+#circle img {
+        width: 100%;
+        height: auto;
+}
+#customs, #bookmarks, #wishlist, #goals, #artwork {
+        width: 100%;
+        height: auto;
+        text-align: center;
+}
+#customs img {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        display: inline-block;
+        border: 1px solid grey;
+        overflow: hidden;
+
+}
+#bookmarks img {
+        width: 88px;
+        height: 31px;
+        margin: 5px;
+        display: inline-block;
+        border: 0px solid grey;
+        overflow: hidden;
+}
+#blurb {
+        padding: 10px;
+        vertical-align: center;
+        color: black;
+        width: auto;
+        height: auto;
+        text-align: left;
+}
+#wishlist img {
+width: 70px;
+height: 70px; 
+margin: 10px;
+padding: 2px; 
+border: 1px solid black;
+display: inline-block;
+}
+#goals img {
+padding: 5px;
+display: inline-block;
+}
+
+
+
+</style>
+
+
+
+<div id="container" style="position: fixed;">
+
+<div id="navi" style="position: fixed;">
+<a href="#about"></a>
+<a href="#wishes"></a>
+<a href="#art"></a>
+<a href="#more"></a>
+</div>
+
+
+<div id="content" style="position: fixed;">
+
+
+
+<div class="scroll" style="position: relative;" id="about">
+
+
+<div id="blurb">
+
+<div id="circle" style="border-radius: 99px;"><a href="/"><img src="https://imgur.com/QfqGCxz.png"></a></div>
+
+<B>hi! I'm username, thank you for visiting my portfolio!</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <i>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</i> </div>
+
+<h2>bookmarks</h2>
+<div id="bookmarks">
+
+<a href="/~adlemeire"><img src="http://imgur.com/aKTEkXE.gif"></a>
+<a href="/~artemest"><img src="http://imgur.com/U9Jbg1F.gif"></a>
+<a href="/~odinorth"><img src="http://imgur.com/RSzmc0O.gif"></a>
+<a href="/browseshop.phtml?owner=katelynnfitz"><img src="http://imgur.com/6wCwFKB.gif"></a>
+<a href="/~etheara"><img src="https://imgur.com/4QREyls.gif"></a>
+<a href="/~athelaya#USERNAMEHERE"><img src="http://imgur.com/4GxL7yh.gif"></a>
+<a href="/gallery/index.phtml?gu=katelynnfitz"><img src="http://imgur.com/HPy2vYH.gif"></a>
+</div>
+
+
+<h2>customizations</h2>
+<div id="customs">
+<img src="http://pets.neopets.com/cpn/grimisce/1/5.png">
+<img src="http://pets.neopets.com/cpn/grimisce/1/5.png">
+<img src="http://pets.neopets.com/cpn/grimisce/1/5.png">
+<img src="http://pets.neopets.com/cpn/grimisce/1/5.png">
+<img src="http://pets.neopets.com/cpn/grimisce/1/5.png">
+<img src="http://pets.neopets.com/cpn/grimisce/1/5.png">
+</div>
+
+
+
+</div>
+
+<div class="scroll" style="position: relative;" id="wishes">
+
+<strong>Tradelist</strong> http://impress.openneo.net/user/38062-katelynnfitz/closet
+<br>
+<strong>Wishlist</strong> http://impress.openneo.net/user/38062-katelynnfitz/closet
+<br>
+Check out my themed gallery! <a href="/"><strong>click here</strong></a> to see my collection.
+
+
+<div id="goals">
+<img src="https://www.drsloth.net/c/34238.png" width="150" height="40" alt="I got my counter at Jellyneo.net!">
+<img src="https://www.drsloth.net/c/34238.png" width="150" height="40" alt="I got my counter at Jellyneo.net!">
+<img src="https://www.drsloth.net/c/34238.png" width="150" height="40" alt="I got my counter at Jellyneo.net!">
+<img src="https://www.drsloth.net/c/34238.png" width="150" height="40" alt="I got my counter at Jellyneo.net!">
+</div>
+
+<div id="wishlist">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<br>
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+<img src="http://images.neopets.com/items/mall_bg_spookysky.gif">
+
+</div>
+</div>
+
+<div class="scroll" style="position: relative;" id="art">
+
+<style>
+span.noe {
+	font: 58pt century gothic;
+	color: #000;
+	border: 0px red solid;
+	width: 40%;
+	text-align: center;
+	top: 20%;
+	right: 30%;
+}
+div.petbox {
+	width: 90%;
+	border: 0px #999 solid;
+	margin: 10px auto;
+	height: 90%;
+}
+div.petbox ul img {
+	border: 1px silver solid;
+	padding: 1px;
+	margin-top: 5px;
+}
+div.petbox ul {
+	width: 20%;
+	float: left;
+	border: 1px silver solid;
+	height: 90%;
+	margin: 5px 5px;
+	padding: 0px;
+	list-style: none;
+	font: 8pt century gothic;
+	text-align: right;
+	overflow: auto;
+}
+div.petbox ul li {
+	display: inline-block;
+	float: -blocked-;
+}
+div.petbox ul li span img {
+	display: block;
+	margin: 5px 0px;
+	width: auto;
+	height: 79% !important;
+	margin-top: 0px !important;
+	text-align: center;
+	padding: 10px;
+	border: 2px solid silver;
+	background: white;
+}
+div.petbox ul span {
+	display: none;
+	height: auto;
+	right: 30px;
+	top: -15px;
+	padding: 20px;
+	float: -blocked-;
+}
+div.petbox ul li:hover span {
+	display: block;
+	text-align: right;
+	height: 95%;
+	overflow: hidden;
+}
+</style><div class="petbox" style="position: relative;">
+
+<span class="noe" style="position: absolute; overflow: hidden;"></span>
+<center><ul><center>
+
+
+
+<li><a href="/userlookup.phtml?user=paintdust"><img src="https://imgur.com/87MZJH7.png" style="width: 55px; height: 55px;"></a>
+<span style="position: absolute;"><img src="https://imgur.com/87MZJH7.png" style="float: -blocked-; height: 100%; margin-left: 105px;">
+Baelia, Grey Faerie // Artist: Paintdust
+</span></li>
+
+<li><a href="/userlookup.phtml?user=paintdust"><img src="https://imgur.com/87MZJH7.png" style="width: 55px; height: 55px;"></a>
+<span style="position: absolute;"><img src="https://imgur.com/87MZJH7.png" style="float: -blocked-; height: 100%; margin-left: 105px;">
+Baelia, Grey Faerie // Artist: Paintdust
+</span></li>
+
+<li><a href="/userlookup.phtml?user=paintdust"><img src="https://imgur.com/87MZJH7.png" style="width: 55px; height: 55px;"></a>
+<span style="position: absolute;"><img src="https://imgur.com/87MZJH7.png" style="float: -blocked-; height: 100%; margin-left: 105px;">
+Baelia, Grey Faerie // Artist: Paintdust
+</span></li>
+
+<li><a href="/userlookup.phtml?user=paintdust"><img src="https://imgur.com/87MZJH7.png" style="width: 55px; height: 55px;"></a>
+<span style="position: absolute;"><img src="https://imgur.com/87MZJH7.png" style="float: -blocked-; height: 100%; margin-left: 105px;">
+Baelia, Grey Faerie // Artist: Paintdust
+</span></li>
+
+<li><a href="/userlookup.phtml?user=paintdust"><img src="https://imgur.com/87MZJH7.png" style="width: 55px; height: 55px;"></a>
+<span style="position: absolute;"><img src="https://imgur.com/87MZJH7.png" style="float: -blocked-; height: 100%; margin-left: 105px;">
+Baelia, Grey Faerie // Artist: Paintdust
+</span></li>
+
+<li><a href="/userlookup.phtml?user=paintdust"><img src="https://imgur.com/87MZJH7.png" style="width: 55px; height: 55px;"></a>
+<span style="position: absolute;"><img src="https://imgur.com/87MZJH7.png" style="float: -blocked-; height: 100%; margin-left: 105px;">
+Baelia, Grey Faerie // Artist: Paintdust
+</span></li>
+
+<li><a href="/userlookup.phtml?user=paintdust"><img src="https://imgur.com/87MZJH7.png" style="width: 55px; height: 55px;"></a>
+<span style="position: absolute;"><img src="https://imgur.com/87MZJH7.png" style="float: -blocked-; height: 100%; margin-left: 105px;">
+Baelia, Grey Faerie // Artist: Paintdust
+</span></li>
+
+<li><a href="/userlookup.phtml?user=paintdust"><img src="https://imgur.com/87MZJH7.png" style="width: 55px; height: 55px;"></a>
+<span style="position: absolute;"><img src="https://imgur.com/87MZJH7.png" style="float: -blocked-; height: 100%; margin-left: 105px;">
+Baelia, Grey Faerie // Artist: Paintdust
+</span></li>
+
+
+</ul>
+</div></div>
+
+<div class="scroll" style="position: relative;" id="more">
+
+
+<p id="blurb">
+This is a great place to put your avatar list! see our <a href="/~etheara">avvie page</a> for this resource, avvie lenders, guides and more!<br><br>
+
+You can also add guild badges here! <a href="/~adlemeire#002">click here</a> to learn more about adding badges to your pages. See all the badges you have acquired on your <a href=/~athelaya>guild profile</a>.<br><br>
+
+Thank you for using this Aesthetic Creations design!
+</p>
+
+<h2>Sitely</h2>
+
+<p id="blurb">Layout & coding are property of Katelynnfitz, Creator of <a href="/~adlemeire">Quirky Aesthetic</a> & <a href="/~odinorth">Aesthetic Creations.</a> <br>
+
+Content by (username here)<br>
+
+Characters of Kiki's Delivery Service at property of Studio Ghibli.  <br>
+
+Fan Art : Ralkaro  </p>
+
+<a href="/~adlemeire"><img src="http://imgur.com/aKTEkXE.gif"></a>
+<a href="/~artemest"><img src="http://imgur.com/5Y7L7mm.gif"></a>
+<a href="/~odinorth"><img src="http://imgur.com/w12PivV.gif"></a>
+
+</div>
+
+</div></div>
